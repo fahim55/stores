@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(-65deg, white, orange, yellow, aqua, white);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+    position: relative;
+}
+
+@keyframes change {
+    0% {background-position: 0 50%}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0 50%;}
+}
+
+h1
+{text-align: center; letter-spacing: 1px;
+    font-family: 'Pacifico', cursive;
+}
+p
+{
+text-align: center;
+font-size: 1.5rem;
+background: black;
+margin: 5px;
+width: 500px;
+margin-top: -5px;
+color: blanchedalmond;
+
+}
+
+.main
+{
+    height: 100%;
+    width: 100%;
+}
+
+#center
+{
+    text-align: center;
+    float: left;
+    margin-left: 30%;
+    width: auto;
+    height: auto;
+}
+
+img
+{
+    border-radius: 20%;
+    border: 2px coral solid;
+}
+
+#right
+{
+    width: 100%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
