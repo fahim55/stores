@@ -22,21 +22,21 @@ h1
 {text-align: center; letter-spacing: 1px;
     font-family: 'Pacifico', cursive;
 }
-p
+.self
 {
 text-align: center;
 font-size: 1.5rem;
-background: black;
-margin: 5px;
+margin: 0px;
 width: 500px;
+height: 100vh;
 margin-top: -5px;
-color: blanchedalmond;
-
+color: black solid;
+justify-content: center;
 }
 
 .main
 {
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 
@@ -56,10 +56,28 @@ img
 }
 
 #right
-{
-    width: 100%;
-    height: 100%;
-    float: right;
+{   
+    height: 100vh;
+    float: center;
     display: flex;
     justify-content: center;
+}
+
+.deploy
+
+{display: flex;
+    width: 100%;
+    height: 100vh;
+    
+    background: coral;
+}
+p 
+{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
 }
