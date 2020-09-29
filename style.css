@@ -61,7 +61,7 @@ img
 
 {display: flex;
     width: 100%;
-    height: 100vh;
+    height: 10vh;
     
     background: coral;
 }
@@ -77,3 +77,13 @@ p
 }
 footer
 {font-size: 30px;}
+
+
+
+
+#below
+{
+    float: bottom;
+    display: flex;
+    height: 20vh;
+}
