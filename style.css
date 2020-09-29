@@ -28,7 +28,7 @@ text-align: center;
 font-size: 1.5rem;
 margin: 0px;
 width: 500px;
-height: 5vh;
+height: -50vh;
 margin-top: -5px;
 color: black solid;
 justify-content: center;
@@ -61,7 +61,7 @@ img
 
 {display: flex;
     width: 100%;
-    height: 10vh;
+    height: 100vh;
     
     background: coral;
 }
@@ -77,13 +77,3 @@ p
 }
 footer
 {font-size: 30px;}
-
-
-
-
-#below
-{
-    float: bottom;
-    display: flex;
-    height: 20vh;
-}
